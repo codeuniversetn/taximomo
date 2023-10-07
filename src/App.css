@@ -109,6 +109,9 @@ h1{
   cursor: pointer;
   color: #3B2D10;
 }
+.fix{
+  width: 39px;
+}
 .text-bas{
   font-size: 30px;
   font-weight: 800;
@@ -164,5 +167,8 @@ h1{
   }
   main{
     padding-top: 30px;
+  }
+  .text-bas{
+    font-size: 20px;
   }
 }

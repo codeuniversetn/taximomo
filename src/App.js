@@ -4,6 +4,7 @@ import branche from './branche.png';
 import './App.css';
 import Tel from './Tel';
 import EmailButton from './Button';
+import Fix from './Fix';
 
 
 
@@ -25,6 +26,7 @@ function App() {
               <div className='icons'>
                 <Tel/>
                 <EmailButton/>
+                <Fix/>
               </div>
               
               <div className='mini_text_container'>
