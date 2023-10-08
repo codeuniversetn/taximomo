@@ -23,8 +23,8 @@ const Mail = () => {
                     <h2 className='title_contact'>Contactez Nous</h2>
                     <input type="text" placeholder='Nom et Prenom' name='user_name' required/>
                     <input type="email" placeholder='Email' name='user_email' required/>
-                    <input type="text" placeholder='Objet' name='objet' required/>
-                    <textarea name='message' cols="35" rows="15"></textarea>
+                    <input type="number" placeholder='Telephone' name='user-tel' required/>
+                    <textarea name='message' className='message' placeholder='Entrez votre texte ici...' required></textarea>
                     <button type='submit' className='btn'>Envoyer</button>
                 </form>
             </div>

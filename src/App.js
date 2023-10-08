@@ -48,6 +48,7 @@ function App() {
                   </div>
                   
                   <div className='mini_text_container'>
+                    <p>RESERVATION POUR :</p>
                     <p className='mini_text'>TAXI SAINT-LOUBES-BORDEAUX <br/> RIVE DROITE</p>
                     <p className='micro-text'>Mohammed Ben Hamouda</p>
                   </div>

@@ -111,7 +111,8 @@ h1{
   color: #3B2D10;
 }
 .home_icon{
-  font-size: 35px;
+  margin-top: 25px;
+  font-size: 45px;
   cursor: pointer;
   color: #3B2D10;
   position: absolute;
@@ -131,7 +132,8 @@ h1{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 .title_contact{
   text-align: center;
@@ -141,32 +143,37 @@ h1{
 }
 .container_form{
   width: 100vw;
-  height: 80vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .form_control{
   background-color: #3B2D10;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 20px;
+  width: 70%;
 }
 .btn{
   width: 200px;
   height: 30px;
   font-family: 'Dela Gothic One', cursive;
-  color: #ffffff;
+  color: #3B2D10;
   background-color: #B8974A;
   border-radius: 5px;
   border: none;
 }
 input{
   height: 30px;
-  width: 200px;
+  width: 70%;
   padding: 3px;
   border-radius: 5px;
   border: none;
+}
+.message{
+  width: 70%;
+  height: 150px;
+  resize: none;
 }
 input::placeholder{
   color: #B8974A;
@@ -176,6 +183,10 @@ textarea{
   border-radius: 5px;
   border: none;
   padding: 3px;
+}
+textarea::placeholder{
+  color: #B8974A;
+  font-weight: 700;
 }
 @media (max-width: 768px) {
   .branche{
