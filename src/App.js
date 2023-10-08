@@ -6,6 +6,7 @@ import EmailButton from './Button';
 import Fix from './Fix';
 import Mail from './Mail';
 import { useState } from 'react';
+import { MdHome } from "react-icons/md";
 
 function App() {
   const [switcher, setSwitcher] = useState(false);
@@ -20,6 +21,9 @@ function App() {
           <p className="text">BIENVENUE</p>
         </div>
        </header>
+       <div onClick={() => setSwitcher(!switcher)}>
+                      <MdHome className='home_icon'/>
+                    </div>
         <Mail />
         </>
       ) : (

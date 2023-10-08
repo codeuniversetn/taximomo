@@ -24,7 +24,7 @@ const Mail = () => {
                     <input type="text" placeholder='Nom et Prenom' name='user_name' required/>
                     <input type="email" placeholder='Email' name='user_email' required/>
                     <input type="text" placeholder='Objet' name='objet' required/>
-                    <textarea name='message' cols="30" rows="10"></textarea>
+                    <textarea name='message' cols="35" rows="15"></textarea>
                     <button type='submit' className='btn'>Envoyer</button>
                 </form>
             </div>
