@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/taximomo/static/css/main.2a246835.css",
-    "main.js": "/taximomo/static/js/main.e075352f.js",
+    "main.css": "/taximomo/static/css/main.280fd65d.css",
+    "main.js": "/taximomo/static/js/main.34d3d9a5.js",
     "static/media/taxi1.png": "/taximomo/static/media/taxi1.05cc062db93952247796.png",
     "static/media/branche.png": "/taximomo/static/media/branche.cad0ca91ce780d5b526c.png",
     "static/media/fix.png": "/taximomo/static/media/fix.109a510759685d5f6234.png",
     "index.html": "/taximomo/index.html",
-    "main.2a246835.css.map": "/taximomo/static/css/main.2a246835.css.map",
-    "main.e075352f.js.map": "/taximomo/static/js/main.e075352f.js.map"
+    "main.280fd65d.css.map": "/taximomo/static/css/main.280fd65d.css.map",
+    "main.34d3d9a5.js.map": "/taximomo/static/js/main.34d3d9a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a246835.css",
-    "static/js/main.e075352f.js"
+    "static/css/main.280fd65d.css",
+    "static/js/main.34d3d9a5.js"
   ]
 }
