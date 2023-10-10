@@ -26,7 +26,7 @@ const Mail = () => {
                     <input type="email" placeholder='Email*' name='user_email' required/>
                     <input type="text" placeholder='Adresse de prise en charge*' name='adrs-prise' required/>
                     <input type="date" placeholder='Date de prise en charge*' name='date-prise' required/>
-                    <input type="time" placeholder='heure de prise en charge*' name='time-prise' required/>
+                    <input type="time" placeholder='Heure de prise en charge*' name='time-prise' required/>
                     <input type="text" placeholder='Destination*' name='desti' required/>
                     <button type='submit' className='btn'>Envoyer</button>
                 </form>
