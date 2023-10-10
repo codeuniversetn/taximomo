@@ -188,6 +188,15 @@ textarea::placeholder{
   color: #B8974A;
   font-weight: 700;
 }
+input[type="date" i] {
+  color: #B8974A;
+  font-weight: 700;
+}
+input[type="time" i] {
+  color: #B8974A;
+  font-weight: 700;
+}
+
 @media (max-width: 768px) {
   .branche{
     width: 250px;
