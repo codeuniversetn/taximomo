@@ -21,10 +21,14 @@ const Mail = () => {
             <div className='container_form'>
                 <form ref={form} onSubmit={sendEmail} className='form_control'>
                     <h2 className='title_contact'>Contactez Nous</h2>
-                    <input type="text" placeholder='Nom et Prenom' name='user_name' required/>
-                    <input type="email" placeholder='Email' name='user_email' required/>
-                    <input type="number" placeholder='Telephone' name='user-tel' required/>
-                    <textarea name='message' className='message' placeholder='Entrez votre texte ici...' required></textarea>
+                    <input type="text" placeholder='Nom*' name='user-name' required/>
+                    <input type="text" placeholder='Telephone*' name='user-tel' required/>
+                    <input type="email" placeholder='Email*' name='user_email' required/>
+                    <input type="text" placeholder='Adresse de prise en charge*' name='adrs-prise' required/>
+                    <input type="text" placeholder='Date et heure de prise en charge*' name='date-prise' required/>
+                    <input type="text" placeholder='Destination*' name='desti' required/>
+                    
+                    <textarea name='message' className='message' placeholder='Entrez votre texte ici...*' required></textarea>
                     <button type='submit' className='btn'>Envoyer</button>
                 </form>
             </div>
